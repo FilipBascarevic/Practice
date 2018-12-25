@@ -8,4 +8,4 @@ stencil: stencil_1D.cu
 
 .PHONY=clean
 clean:
-	rm -f stencil
+	rm -f stencill
