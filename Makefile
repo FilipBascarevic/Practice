@@ -1,1 +1,4 @@
-nvcc -g -o stencil_1D stencil_1D.cu
+all: stencil
+
+stencil: stencil_1D.cu
+	nvcc -g -o stencil stencil_1D.cu
